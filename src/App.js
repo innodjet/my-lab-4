@@ -210,7 +210,7 @@ function App() {
          data[0].lastName.length > 45 ) {
       isLastNameValid=false;
       const prepData = [{
-        message: 'Last Name length must be less than 45',
+        message: 'Last Name length must be less than 45 Characters',
         type: 0, // 0 - Error , 1 - Success
         display: true
       }];
@@ -224,7 +224,7 @@ function App() {
          isNaN(parseInt(data[0].age)) === true ) {
       isAgeValid = false;
       const prepData = [{
-        message: 'Age fields must be numeric',
+        message: 'Age must be numeric',
         type: 0, // 0 - Error , 1 - Success
         display: true
       }];
