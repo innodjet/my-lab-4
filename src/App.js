@@ -185,7 +185,7 @@ function App() {
         data[0].age === '' ) {
         isfieldsEmpty = true;
         const prepData = [{
-          message: 'Some / All the fields are empty',
+          message: 'All the fields are requiered',
           type: 0, // 0 - Error , 1 - Success
           display: true
         }];
