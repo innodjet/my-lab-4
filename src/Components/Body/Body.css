@@ -1,0 +1,17 @@
+.fa {
+    margin: 0px 15px;
+}
+
+.fa-edit {
+    color: rgb(0, 123, 255);
+}
+
+.fa-trash {
+    color: rgb(220, 53, 69);
+}
+
+#save-button,
+#add-button {
+    margin: 0px 15px;
+    width: 60px;
+}
