@@ -10,7 +10,7 @@ function App() {
       id: 0,
       firstName: 'NIK',
       lastName: 'DJETELI',
-      age: '28',
+      age: '30',
       updateMode: false
     },
     {
