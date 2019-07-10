@@ -16,7 +16,7 @@ function App() {
     {
       id: 1,
       firstName: 'Derick',
-      lastName: 'Rose',
+      lastName: 'ROSE',
       age: '38',
       updateMode: false
     }
