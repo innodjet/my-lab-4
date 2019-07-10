@@ -73,7 +73,7 @@ const Body = ( { contactData ,
         let backgroundStyle = (index+1)%2 === 0? { backgroundColor: 'rgba(0,0,0,.05)' }:{ backgroundColor: 'white' } 
         return ( <tbody key={ index }>
                     <tr style={ backgroundStyle }>
-                        <th scope="row"> { el.id }  </th>
+                        <th scope="row">  </th>
                         <td>
                             <input type="text" 
                                    className="form-control" 
